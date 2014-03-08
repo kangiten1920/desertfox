@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+#header {
+	width: 900px;
+	height: 50px;
+}
+#container {
+	width: 900px; /* 両端ブロックとコンテンツを囲んでいるセレクタです。*/
+}
+#menu {
+	text-align: left;
+	float: left;
+	width: 150px; /* floatに、width 指定は必須です。*/
+}
+#main {
+	float: left;
+	width: 500px;
+}
+#related {
+	text-align: left;
+	float: left;
+	width: 250px;
+}
+#footer {
+	clear: both; /* float をクリアしています。*/
+	width: 900px;
+	height: 50px;
+}
+div.recommend_list {
+	text-align: left;
+	margin-top: 10px;
+}
+div.recommend_left {
+	float: left;
+	width: 200px;
+}
+div.recommend_right {
+	float: left;
+	width: 200px;
+}
+#menu * {
+	cursor: pointer;
+}
+#menu ul {
+	display: none;
+}
+li {
+	padding: 4px 2px 4px 30px;
+}
