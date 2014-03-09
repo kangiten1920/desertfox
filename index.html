@@ -21,148 +21,167 @@
 
 	<body>
 
-		<div class="container">
-			<div class="header">
-				<h1>犬猫用品情報館</h1>
-			</div>
-
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="item active">
-						<img class="slide-image" src="http://placehold.it/800x300" alt="">
-					</div>
-					<div class="item">
-						<img class="slide-image" src="http://placehold.it/800x300" alt="">
-					</div>
-					<div class="item">
-						<img class="slide-image" src="http://placehold.it/800x300" alt="">
-					</div>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+					<a class="navbar-brand logo-nav" href="/"> 犬猫用品情報館 </a>
 				</div>
-				<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
-				<a class="right carousel-control" href="#carousel-example-generic" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
-			</div>
-			<div class="main">
-				<div class="row">
-					<!-- Sidebar -->
-					<div class="col-md-2 left-column">
-						<ul>
-							<li id="accordion-dog" class="left-column-top">
-								<h4 class="panel-title well"><a data-toggle="collapse" data-parent="#accordion-dog" href="#collapse-dog">犬用品</a></h4>
-								<div id="collapse-dog" class="collapse">
-									<ul>
-										<li class="well">
-											<a href="#">test3</a>
-										</li>
-										<li class="well">
-											<a href="#">test4</a>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li id="accordion-cat" class="left-column-top">
-								<h4 class="panel-title well"><a data-toggle="collapse" data-parent="#accordion-cat" href="#collapse-cat">猫用品</a></h4>
-								<div id="collapse-cat" class="collapse">
-									<ul>
-										<li class="well">
-											<a href="#">test3</a>
-										</li>
-										<li class="well">
-											<a href="#">test4</a>
-										</li>
-									</ul>
-								</div>
-							</li>
-						</ul>
-					</div>
 
-					<!-- Page content -->
-					<div class="col-md-7 center-column">
-						<div class="content-header">
-							<h1><a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a> Simple Sidebar </h1>
-						</div>
-						<!-- Keep all page content within the page-content inset div! -->
-						<div class="page-content inset">
-							<div class="row">
-								<div class="col-md-12">
-									<p class="lead">
-										This simple sidebar template has a hint of JavaScript to make the template responsive. It also includes Font Awesome icon fonts.
-									</p>
-								</div>
-								<div class="col-md-6">
-									<p class="well">
-										The template still uses the default Bootstrap rows and columns.
-									</p>
-								</div>
-								<div class="col-md-6">
-									<p class="well">
-										But the full-width layout means that you wont be using containers.
-									</p>
-								</div>
-								<div class="col-md-4">
-									<p class="well">
-										Three Column Example
-									</p>
-								</div>
-								<div class="col-md-4">
-									<p class="well">
-										Three Column Example
-									</p>
-								</div>
-								<div class="col-md-4">
-									<p class="well">
-										You get the idea! Do whatever you want in the page content area!
-									</p>
-								</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="/desertfox/">ホーム</a>
+						</li>
+						<li>
+							<a href="/desertfox/contact/">お問い合わせ</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img class="slide-image" src="/desertfox/common/images/header.jpg" alt="">
+				</div>
+				<div class="item">
+					<img class="slide-image" src="http://placehold.it/800x300" alt="">
+				</div>
+				<div class="item">
+					<img class="slide-image" src="http://placehold.it/800x300" alt="">
+				</div>
+				<div class="item">
+					<img class="slide-image" src="http://placehold.it/800x300" alt="">
+				</div>
+			</div>
+			<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+			<a class="right carousel-control" href="#carousel-example-generic" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+		</div>
+		<div class="container">
+
+			<div class="row">
+				<!-- Sidebar -->
+				<div class="col-md-2 left-column">
+					<ul>
+						<li id="accordion-dog" class="left-column-top">
+							<h4 class="panel-title well"><a data-toggle="collapse" data-parent="#accordion-dog" href="#collapse-dog">犬用品</a></h4>
+							<div id="collapse-dog" class="collapse">
+								<ul>
+									<li class="well">
+										<a href="#">dddd</a>
+									</li>
+									<li class="well">
+										<a href="#">test4</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li id="accordion-cat" class="left-column-top">
+							<h4 class="panel-title well"><a data-toggle="collapse" data-parent="#accordion-cat" href="#collapse-cat">猫用品</a></h4>
+							<div id="collapse-cat" class="collapse">
+								<ul>
+									<li class="well">
+										<a href="#">test3</a>
+									</li>
+									<li class="well">
+										<a href="#">test4</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Page content -->
+				<div class="col-md-7 center-column">
+					<div class="content-header">
+						<h1><a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a> Simple Sidebar </h1>
+					</div>
+					<!-- Keep all page content within the page-content inset div! -->
+					<div class="page-content inset">
+						<div class="row">
+							<div class="col-md-12">
+								<p class="lead">
+									This simple sidebar template has a hint of JavaScript to make the template responsive. It also includes Font Awesome icon fonts.
+								</p>
+							</div>
+							<div class="col-md-6">
+								<p class="well">
+									The template still uses the default Bootstrap rows and columns.
+								</p>
+							</div>
+							<div class="col-md-6">
+								<p class="well">
+									But the full-width layout means that you wont be using containers.
+								</p>
+							</div>
+							<div class="col-md-4">
+								<p class="well">
+									Three Column Example
+								</p>
+							</div>
+							<div class="col-md-4">
+								<p class="well">
+									Three Column Example
+								</p>
+							</div>
+							<div class="col-md-4">
+								<p class="well">
+									You get the idea! Do whatever you want in the page content area!
+								</p>
 							</div>
 						</div>
 					</div>
+				</div>
 
-					<div class="col-md-3 right-column">
-						<div>
-							<script type="text/javascript" charset="utf-8" src="http://tenki.jp/blog/script/parts/forecast/?type=top&color=0&size=large"></script>
-						</div>
-
-						<div class="flex-video widescreen">
-							<iframe src="https://www.youtube-nocookie.com/embed/..." frameborder="0" allowfullscreen=""></iframe>
-						</div>
-						<div>
-							<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2F127.0.0.1%3A8020%2Fdesertfox%2Findex.html&amp;width=30px&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:30pxpx; height:80px;" allowTransparency="true"></iframe>
-						</div>
-						<div>
-							<a href="https://twitter.com/share" class="twitter-share-button" data-via="kangiten1920" data-lang="ja">ツイート</a>
-							<script>
-								! function(d, s, id) {
-									var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-									if (!d.getElementById(id)) {
-										js = d.createElement(s);
-										js.id = id;
-										js.src = p + '://platform.twitter.com/widgets.js';
-										fjs.parentNode.insertBefore(js, fjs);
-									}
-								}(document, 'script', 'twitter-wjs');
-							</script>
-						</div>
-
+				<div class="col-md-3 right-column">
+					<div>
+						<script type="text/javascript" charset="utf-8" src="http://tenki.jp/blog/script/parts/forecast/?type=top&color=0&size=large"></script>
 					</div>
+
+					<div class="flex-video widescreen">
+						<iframe src="https://www.youtube-nocookie.com/embed/..." frameborder="0" allowfullscreen=""></iframe>
+					</div>
+					<div>
+						<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2F127.0.0.1%3A8020%2Fdesertfox%2Findex.html&amp;width=30px&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:30pxpx; height:80px;" allowTransparency="true"></iframe>
+					</div>
+					<div>
+						<a href="https://twitter.com/share" class="twitter-share-button" data-via="kangiten1920" data-lang="ja">ツイート</a>
+						<script>
+							! function(d, s, id) {
+								var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+								if (!d.getElementById(id)) {
+									js = d.createElement(s);
+									js.id = id;
+									js.src = p + '://platform.twitter.com/widgets.js';
+									fjs.parentNode.insertBefore(js, fjs);
+								}
+							}(document, 'script', 'twitter-wjs');
+						</script>
+					</div>
+
 				</div>
 			</div>
 		</div>
-
 		<!-- JavaScript -->
 		<script src="/desertfox/common/js/jquery-1.11.0.js"></script>
 		<script src="/desertfox/common/js/bootstrap.js"></script>
-		<script>
-			$(function() {
-				$("#acMenu dt").on("click", function() {
-					$(this).next().slideToggle();
-				});
-			});
-		</script>
 	</body>
 
 </html>
