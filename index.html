@@ -50,11 +50,34 @@
 				<div class="row">
 					<!-- Sidebar -->
 					<div class="col-md-2 left-column">
-						<div class="list-group">
-							<a class="list-group-item" href="#">犬用品</a>
-							<a class="list-group-item" href="#">ドッグフード</a>
-							<a class="list-group-item" href="#">小型犬</a>
-						</div>
+						<ul>
+							<li id="accordion-dog" class="left-column-top">
+								<h4 class="panel-title well"><a data-toggle="collapse" data-parent="#accordion-dog" href="#collapse-dog">犬用品</a></h4>
+								<div id="collapse-dog" class="collapse">
+									<ul>
+										<li class="well">
+											<a href="#">test3</a>
+										</li>
+										<li class="well">
+											<a href="#">test4</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li id="accordion-cat" class="left-column-top">
+								<h4 class="panel-title well"><a data-toggle="collapse" data-parent="#accordion-cat" href="#collapse-cat">猫用品</a></h4>
+								<div id="collapse-cat" class="collapse">
+									<ul>
+										<li class="well">
+											<a href="#">test3</a>
+										</li>
+										<li class="well">
+											<a href="#">test4</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
 					</div>
 
 					<!-- Page content -->
@@ -133,6 +156,13 @@
 		<!-- JavaScript -->
 		<script src="/desertfox/common/js/jquery-1.11.0.js"></script>
 		<script src="/desertfox/common/js/bootstrap.js"></script>
+		<script>
+			$(function() {
+				$("#acMenu dt").on("click", function() {
+					$(this).next().slideToggle();
+				});
+			});
+		</script>
 	</body>
 
 </html>
